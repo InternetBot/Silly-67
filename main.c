@@ -6,17 +6,26 @@
 
 int main()
 {
+
+static int lastKey = 0;
+
     do
     {
-        for (INT Key = 8; Key < 256; Key++)
+        for (INT vKey = 8; vKey < 256; vKey++)
         {
-            if (GetAsyncKeyState(Key) & 0x01)
+// lsb for released 
+            if (GetAsyncKeyState(vKey) & 0x01)
             {
                 printf("Key Pressed:\n"
                        " - Virtual Key: 0x%x\n"
                        " - Scan Code : 0x%x\n",
-                       Key,
-                       MapVirtualKeyW(Key, MAPVK_VK_TO_VSC));
+                       vKey, MapVirtualKeyW(vKey, MAPVK_VK_TO_VSC));
+
+				if (lastKey == '6' && vKey == '7'){
+					printf("found 67\n");
+				}
+
+				lastKey = vKey;
             }
 
             Sleep(50);
