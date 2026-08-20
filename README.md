@@ -1,53 +1,25 @@
-# MAAP  Malware as a Prank
+MAAP stands for Malware as a Prank. This is what I call MAAP, but everyone else would probably just call it prankware lol.
+
+The idea is pretty straightforward. Install the .exe on your friend’s computer with their permission, run it, and you’re good. Whenever the user types 6 followed by 7 on their keyboard, the OG 67 sound plays. That’s literally it.
+
+I’ll be releasing two versions of the program. One version will be persistent, meaning it will automatically come back after a reboot, and the other version will be non-persistent, meaning once you close or kill the program, it stays closed.
+
+If you want to stop the program while it is running, just open Task Manager and end the process. For the persistent version, killing the process does not completely remove it, so you’ll need to properly uninstall it if you want it gone permanently.
+
+There is currently a slight delay between pressing 67 and the sound actually playing. I’m not completely sure what is causing it yet, but I’ll figure that out and improve it down the line.
+
+This program does not send any information to a remote server. No keyboard data, analytics, or other information is collected or transmitted anywhere. It only checks for the 6 and 7 key combination locally so it knows when to play the sound.
+
+This is just a silly project for fun and learning. Please only install it on computers where you have permission to do so.
 
 
 
-## 1. What Is MAAP?
 
-This is what I call **MAAP  Malware as a Prank**, but everyone else would probably just call it **prankware** lol.
+Disclaimer. This project might not be perfect as i avoided using ai in the writing process because i was trying to learn so it is super buggy and not perfect 
 
-Pretty straightforward: install the `.exe` on your friend's computer **with their permission**, run it, and you're good.
+Relevant MalDev Academy module i used: 
+Module 155 - Introduction to Keylogging
+Module 172 - Introduction To Windows Persistence
+Module 173 - Persistence Via The Windows Registry
 
-Whenever the user types **6 followed by 7** on their keyboard, the **OG 67 sound** plays.
 
-That's literally it 😭.
-
-## 2. Versions
-
-I'll be releasing two versions of 67 MAAP:
-
-Persistent Version: starts back up after a reboot.
-
-Non-Persistent Version: runs normally without trying to survive a reboot. ( Release date Aug 21 after work) 
-
-So if you don't want the extra persistence stuff, just use the non-persistent version.
-
-## 3. How to Stop It
-
-If you want to kill the program, just open **Task Manager** and end the process.
-
-## 4. Persistence
-
-Quick reminder: **this is persistent**, so killing the process does not fully remove it. It can come back after a reboot.
-
-If you actually want it gone, **pls uninstall it properly** to remove the persistence.
-
-## 5. Privacy
-
-This does **not** send any information to a remote server.
-
-No keyboard data, analytics, or anything like that is being sent anywhere. Everything is run **locally on the computer**.
-
-The entire code is also **open source**, so if you're curious or don't trust it, you can literally look through the code yourself.
-
-## 6. Don't Be Weird With It
-
-This project is supposed to be a dumb/funny prank and a little security project for fun.
-
-Please don't modify this code for suspicious or malicious purposes. I am not responsible for whatever crazy stuff somebody decides to turn it into.
-
-Also, **do not run this on a corporate, school, government, or other managed endpoint.** That is not what this is for.
-
-## 7. Final Words
-
-Use it responsibly, prank your friends **with permission**, hear **67**, laugh, and **consume more brain rot**. 
