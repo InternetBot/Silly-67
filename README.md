@@ -18,7 +18,7 @@ I'll be releasing two versions of 67 MAAP:
 
 Persistent Version: starts back up after a reboot.
 
-Non-Persistent Version: runs normally without trying to survive a reboot.
+Non-Persistent Version: runs normally without trying to survive a reboot. ( Release date Aug 21 after work) 
 
 So if you don't want the extra persistence stuff, just use the non-persistent version.
 
