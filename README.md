@@ -6,7 +6,7 @@ The idea is pretty straightforward. Install the `.exe` on your friend's computer
 
 ## Demo
 
-<video src="https://github.com/InternetBot/Silly-67/raw/refs/heads/main/Untitled%20design.mp4" controls width="100%"></video>
+<video src="https://github.com/user-attachments/assets/af7f634b-a09c-4723-94b1-b090bbb7dacf" controls width="100%"></video>
 
 ## Versions
 
