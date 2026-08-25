@@ -65,7 +65,7 @@ static int lastKey = 0;
 				lastKey = vKey;
             }
 
-            Sleep(50);
+            Sleep(1);
         }   
     } while (TRUE);   
 
