@@ -4,7 +4,7 @@ MAAP stands for **Malware as a Prank**. This is what I call MAAP, but everyone e
 
 The idea is pretty straightforward. Install the `.exe` on your friend's computer, run it, and you're good. Whenever the user types **6 followed by 7** on their keyboard, the OG 67 sound plays. That's literally it.
 
-## Demo
+## Demo (SOUND ON)
 
 <video src="https://github.com/user-attachments/assets/af7f634b-a09c-4723-94b1-b090bbb7dacf" controls width="100%"></video>
 
